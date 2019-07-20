@@ -50,7 +50,7 @@ Item {
             var obj = Qt.createComponent("OneItem.qml").createObject(root)
             items.push(obj)
 
-//            console.log(obj.speed,obj.name.text,obj.name.color,obj.name.font.pixelSize)
+            //console.log(obj.speed,obj.name.text,obj.name.color,obj.name.font.pixelSize)
         }
     }
 }
